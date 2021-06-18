@@ -1,0 +1,340 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: "Asap", sans-serif;
+}
+.bg-one {
+    background: url(../img/bg-one.png);
+}
+::-webkit-input-placeholder {
+    color: #212121;
+    font-size: 16px;
+    font-family: "Asap", sans-serif;
+}
+/*--------------HEADER*-----------*/
+.header {
+    min-height: 90px;
+    text-transform: uppercase;
+    .logo {
+        display: inline-block;
+        text-align: center;
+    }
+    &__text {
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        margin: 0;
+    }
+    &__text-two {
+        margin: 0;
+        font-size: 4px;
+    }
+}
+.a-header {
+    font-family: "Asap", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4d4d4d;
+    padding-bottom: 4px;
+    margin-left: 35px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+    transition: all 0.3s ease;
+    &:hover {
+        border-bottom: 1px solid rgba(0, 81, 255, 0.849);
+        color: rgba(0, 81, 255, 0.849);
+    }
+}
+/*--------------HEADER*-----------*/
+/*--------------CONTENT-----------*/
+.content {
+    font-family: "Asap", sans-serif;
+    .author {
+        font-weight: 500;
+        font-size: 87px;
+        margin: 0;
+    }
+    .author__text {
+        font-weight: 500;
+        font-size: 22px;
+        color: #4d4d4d;
+    }
+    &__nav {
+        margin-top: 30px;
+        &-link {
+            font-family: "Asap", sans-serif;
+            font-weight: 600;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-size: 16px;
+            color: black;
+            padding: 19px 34px;
+            margin-right: 15px;
+            border: 1px solid #4d4d4d;
+            transition: all 0.3s ease;
+            &:hover {
+                border: 1px solid #fff;
+                background-color: #fff;
+                color: black;
+            }
+            &:last-child {
+                margin-right: 0px;
+            }
+        }
+    }
+}
+/*--------------CONTENT-----------*/
+/*--------------ABOUT-----------*/
+.about {
+    font-family: "Asap", sans-serif;
+    min-height: 680px;
+    color: #4d4d4d;
+    &__h1 {
+        font-weight: bold;
+        font-size: 46px;
+        text-transform: uppercase;
+    }
+    &__p {
+        font-weight: 400;
+        font-size: 16px;
+        padding-bottom: 35px;
+    }
+    &__link {
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #4d4d4d;
+        padding: 20px 45px;
+        border: 1px solid #4d4d4d;
+        transition: all 0.3s ease;
+        &:hover {
+            background-color: black;
+            color: #fff;
+            border: 1px solid black;
+        }
+    }
+    .hr-left {
+        width: 60px;
+        height: 3px;
+        background-color: #7a7a7a;
+    }
+}
+/*--------------ABOUT-----------*/
+.bg-two {
+    background-color: #f6f6f6;
+}
+/*--------------SERVICES-----------*/
+.services {
+    padding-bottom: 60px;
+    &__h1 {
+        text-align: center;
+        padding-top: 60px;
+        margin: 0;
+    }
+    &__text {
+        font-family: "Asap", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        padding-top: 12px;
+    }
+}
+.icon {
+    text-align: center;
+}
+/*--------------SERVICES-----------*/
+/*--------------SKILLS-----------*/
+.skills {
+    margin-bottom: 60px;
+    &__text {
+        padding-top: 60px;
+        padding-bottom: 20px;
+        font-family: "Asap", sans-serif;
+        font-weight: 700;
+        color: #4d4d4d;
+        font-size: 46px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+.procent {
+    padding-top: 40px;
+    list-style-type: none;
+    font-size: 15px;
+    font-family: "Asap", sans-serif;
+    font-weight: 700;
+    &:first-child {
+        padding-top: 0px;
+    }
+}
+/*--------------SKILLS-----------*/
+.bg-three {
+    background-color: #f6f6f6;
+}
+/*--------------PORTFOLIO-----------*/
+.portfolio {
+    text-align: center;
+    padding-bottom: 60px;
+    &__link {
+        font-family: "Asap", sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: #4d4d4d;
+        background-color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 20px 45px;
+        transition: all 0.3s ease;
+        &:hover {
+            color: #fff;
+            background-color: black;
+        }
+    }
+}
+/*--------------PORTFOLIO-----------*/
+/*--------------TESTI-----------*/
+.testi {
+    font-family: "Asap", sans-serif;
+    color: #212121;
+    margin-bottom: 80px;
+    &__info {
+        padding: 30px 60px;
+        border: 1px solid #212121;
+    }
+    &__author {
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 600;
+        margin: 0;
+    }
+    &__company {
+        font-size: 12px;
+        font-weight: 600;
+        font-style: italic;
+    }
+    &__text {
+        color: #919191;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    &__img {
+        margin-right: 30px;
+    }
+}
+/*--------------TESTI-----------*/
+.bg-four {
+    background-color: #f6f6f6;
+}
+/*--------------MONO-----------*/
+.mono {
+    font-family: "Asap", sans-serif;
+    min-height: 300px;
+    color: #212121;
+    margin-bottom: 120px;
+    .zero {
+        font-weight: 600;
+        font-size: 30px;
+        margin: 0;
+        padding-top: 30px;
+    }
+    .zero__info {
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+}
+/*--------------MONO-----------*/
+.bg-five {
+    background: url(../img/footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*--------------FOOTER-----------*/
+.footer {
+    min-height: 790px;
+    text-align: center;
+    font-family: "Asap", sans-serif;
+    &__form {
+        font-size: 16px;
+    }
+    &__text {
+        padding-top: 150px;
+        padding-bottom: 20px;
+        font-family: "Asap", sans-serif;
+        font-weight: 700;
+        color: #fff;
+        font-size: 46px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &__input {
+        min-height: 60px;
+        width: 370px;
+        margin-bottom: 30px;
+        padding-left: 10px;
+        border-radius: 12px;
+        outline-color: #868686;
+        border: none;
+        transition: all 0.2s linear;
+        &:hover {
+            background-color: #c9c9c9;
+        }
+    }
+    &__textarea {
+        width: 745px;
+        padding-left: 10px;
+        padding-top: 25px;
+        border-radius: 12px;
+        outline-color: #868686;
+        border: none;
+        transition: all 0.2s linear;
+        &:hover {
+            background-color: #c9c9c9;
+        }
+    }
+    &__btn {
+        padding: 20px 30px;
+        margin-top: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+        border: none;
+        color: #212121;
+        background-color: #fff;
+        border-radius: 12px;
+        transition: all 0.3s ease;
+        &:hover {
+            background-color: rgb(187, 59, 59);
+            color: #fff;
+        }
+        img {
+            margin-bottom: 5px;
+            margin-left: 10px;
+        }
+    }
+}
+.footer__podval {
+    border-top: 1px solid #c4c4c4;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    &-img {
+        margin-left: 4px;
+        height: 27px;
+        width: 27px;
+        transition: all 0.3s linear;
+        &:hover {
+            height: 45px;
+            width: 45px;
+        }
+    }
+    &-text {
+        font-family: "Montserrat", sans-serif;
+        color: #fff;
+        font-size: 16px;
+        margin: 0;
+    }
+}
+/*--------------FOOTER-----------*/

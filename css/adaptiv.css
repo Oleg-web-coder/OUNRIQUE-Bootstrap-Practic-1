@@ -1,0 +1,109 @@
+/*----------@MEDIA-----------*/
+@media (max-width: 1290px) {
+    .luis {
+        max-width: 450px;
+    }
+}
+@media (max-width: 1200px) {
+    .skills-img {
+        max-width: 840px;
+    }
+}
+@media (max-width: 1165px) {
+    .luis-work {
+        max-width: 450px;
+    }
+}
+@media (max-width: 1400px) {
+    .portfolio-img {
+        max-width: 320px;
+    }
+    .portfolio__nav {
+        padding-top: 30px;
+    }
+}
+@media (max-width: 1000px) {
+    .skills-img {
+        max-width: 520px;
+    }
+    .procent {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+@media (max-width: 990px) {
+    .footer__textarea {
+        max-width: 370px;
+    }
+}
+@media (max-width: 968px) {
+    .luis {
+        max-width: 350px;
+    }
+}
+@media (max-width: 960px) {
+    .luis-work {
+        margin-top: 50px;
+        margin-bottom: 25px;
+        max-width: 360px;
+    }
+    .procent {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .luis {
+        margin-top: 50px;
+    }
+    .testi__img {
+        margin-bottom: 25px;
+    }
+    .testi__info {
+        padding-left: 30px;
+    }
+}
+@media (max-width: 700px) {
+    .skills-img {
+        max-width: 360px;
+    }
+}
+@media (max-width: 540px) {
+    .about {
+        min-height: 440px;
+    }
+    .luis-work {
+        display: none;
+    }
+    .testi__info {
+        font-size: 12px;
+    }
+}
+@media (max-width: 420px) {
+    .content__nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content__nav-link {
+        margin-top: 10px;
+    }
+    .content .author {
+        font-size: 50px;
+    }
+    .luis {
+        max-width: 250px;
+    }
+}
+@media (max-width: 405px) {
+    .skills-img {
+        max-width: 220px;
+    }
+}
+@media (max-width: 360px) {
+    .footer__input {
+        max-width: 220px;
+    }
+    .footer__textarea {
+        max-width: 220px;
+    }
+}
+/*----------@MEDIA-----------*/
